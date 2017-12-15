@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>Yuka Nagatomo Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/jquery.fullPage.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="/js/jquery.fullpage.min.js"></script>
+    <script src="/js/contents.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+</head>
+
+<body>
+    <div class="nav_wrapper">
+        <nav>
+            <a href="#firstPage" class="topbtn">What one likes, one will do well.</a>
+            <a href="#secondPage" class="btn">about</a>
+            <a href="#thirdPage" class="btn">work</a>
+        </nav>
+    </div>
+    <div id="fullpage">
+        <section class="section">
+            <div class="toptitle">
+                <p>Yuka Nagatomo</p>
+            </div>
+            <div class="topdescription">
+                <p>Web&GraphicDesigner</p>
+            </div>
+            <div class="scroll-icon">
+                <a href="#secondPage" class="scroll">Scroll<span class="scroll"></span></a>
+            </div>
+        </section>
+        <section class="section">
+            <div class="section_wrraper" id="target">
+                <div class="section2">
+                    <div class="left">
+                        <img src="/images/IMG_2260.JPG" alt="">
+                        <p class="myname2">ナガトモ ユウカ</p>
+                        <p class="myname">長友 優果</p>
+                        <p class="birth">1998/12/24</p>
+                    </div>
+                    <ul class="timeline">
+                        <li>
+                            <p class="timeline-date">2017/04~</p>
+                            <div class="timeline-content">
+                                <h3>明治大学</h3>
+                                <p>理工学部 情報科学科</p>
+                            </div>
+                        </li>
+                        <li>
+                            <p class="timeline-date">2017/07~</p>
+                            <div class="timeline-content">
+                                <h3>Life is Tech! 株式会社</h3>
+                                <p>Webデザイン・デザイナーコースメンター</p>
+                            </div>
+                        </li>
+                        <li>
+                            <p class="timeline-date">2017/11~</p>
+                            <div class="timeline-content">
+                                <h3>テテマーチ 株式会社</h3>
+                                <p>デザイナーインターン</p>
+                            </div>
+                        </li>
+                        <li>
+                            <p class="timeline-date">2017/12~</p>
+                            <div class="timeline-content">
+                                <h3>株式会社 SnSnap</h3>
+                                <p>デザイナーインターン</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <div class="section_wrraper" id="target">
+                <div class="section3">
+                    <a href="#" class="work">Coming Soon</a>
+                    <a href="#" class="work">Coming Soon</a>
+                    <a href="#" class="work">Coming Soon</a>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script>
+        $('#fullpage').fullpage({
+            anchors: ['firstPage', 'secondPage', 'thirdPage'],
+            navigation: true
+        });
+    </script>
+</body>
+</html>
