@@ -5,12 +5,12 @@
 
 @font-face {
     font-family: "brixton1";
-    src: url("/fonts/Studio-Gothic-Alternate-Light-trial.ttf") format('opentype');
+    src: url("./fonts/Studio-Gothic-Alternate-Light-trial.ttf") format('opentype');
 }
 
 @font-face {
     font-family: "brixton2";
-    src: url("/fonts/Studio-Gothic-Alternate-Bold-trial.ttf") format('opentype');
+    src: url("./fonts/Studio-Gothic-Alternate-Bold-trial.ttf") format('opentype');
 }
 
 .nav_wrapper{
